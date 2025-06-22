@@ -50,7 +50,7 @@ $x=\sin t$
 $y=\cos t$
 $z=-t$
 Espiral que va hacia abajo.
-<iframe width='400' height='500' src='https://www.wolframcloud.com/obj/5521f214-10fd-44cc-acb6-ca1faf8f4beb' frameborder='0'></iframe>
+![Pasted image 20250621135446.png](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/C%C3%A1lculo%20III/1%20Funciones%20vectoriales/attachments/Pasted%20image%2020250621135446.png)
 ## Ejemplo 3
 Encuentre parametrización de la intersección de $x^{2}+y^{2}=1$ e $y+z=2$.
 Es un cilindro y un plano.
