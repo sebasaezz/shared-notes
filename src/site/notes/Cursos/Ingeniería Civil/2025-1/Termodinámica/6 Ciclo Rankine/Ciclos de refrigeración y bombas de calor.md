@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2025-1/termodinamica/6-ciclo-rankine/ciclos-de-refrigeracion-y-bombas-de-calor/","tags":["ExIIQ1003"]}
 ---
 
-Similares a un ciclo de rankine [[Cursos/Ingeniería Civil/2025-1/Termodinámica/6 Ciclo Rankine/Ciclo de Rankine\|Ciclo de Rankine]] 
+Similares a un [[Cursos/Ingeniería Civil/2025-1/Termodinámica/6 Ciclo Rankine/Ciclo de Rankine\|Ciclo de Rankine]] 
 ![Pasted image 20250611083659.png|400](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/Termodin%C3%A1mica/6%20Ciclo%20Rankine/attachments/Pasted%20image%2020250611083659.png)
 Por medio de un trabajo $W_{\text{C}}$ aplicado a un compresor, se ingresa calor $Q_{\text{E}}$ (comida y ambiente) a un evaporador, generando liquido. Este líquido de comprime y después se condensa liberando calor $Q_{\text{C}}$.
 ![Pasted image 20250611084300.png|300](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/Termodin%C3%A1mica/6%20Ciclo%20Rankine/attachments/Pasted%20image%2020250611084300.png)
@@ -26,13 +26,12 @@ Es la fracción entre el calor extraído y el trabajo invertido (para un refrige
 $$
 COP= \frac{\lvert Q_{\text{E}} \rvert }{\lvert W_{\text{C}} \rvert }
 $$
-Para el calefactor, será la fracción de calor ingresado al sistema $Q_{C}$ entre el trabajo invertido en el compresor:
+Para el calefactor, será la fracción de calor ingresado al sistema $Q_{C}$ (condensador) entre el trabajo invertido en el compresor:
 $$
-COP= \frac{\lvert Q_{\text{C}} \rvert }{\lvert Q_{\text{C}} \rvert }
+COP= \frac{\lvert Q_{\text{C}} \rvert }{\lvert W_{\text{C}} \rvert }
 $$
 Este valor no va entre $0$ y $1$.
 La $COP$ máxima para un refrigerador será la de un [[Cursos/Ingeniería Civil/2025-1/Termodinámica/3 Ciclos termodinámicos/Ciclo de Carnot\|Ciclo de Carnot]] inverso:
 $$
 COP_{\text{maxima}}=\frac{T_{\text{E}}}{T_{\text{C}}-T_{\text{E}}}
 $$
-cuadratic equation

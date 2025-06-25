@@ -28,7 +28,7 @@ El trabajo será:
 $$
 W=W_{T}+W_{P}
 $$
-	Esto da un valor negativo, por que sale.
+	Esto da un valor negativo, porque sale.
 De otra forma:
 $$
 W=W_{T}-\lvert W_{P} \rvert 
