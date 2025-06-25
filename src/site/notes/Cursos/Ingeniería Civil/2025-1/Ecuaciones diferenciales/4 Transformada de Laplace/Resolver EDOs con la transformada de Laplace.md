@@ -2,9 +2,8 @@
 {"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2025-1/ecuaciones-diferenciales/4-transformada-de-laplace/resolver-ed-os-con-la-transformada-de-laplace/","tags":["ExMAT1640"]}
 ---
 
-# Concepto
 Transformar una ecuación diferencial a una algebraica con la [[Cursos/Ingeniería Civil/2025-1/Ecuaciones diferenciales/4 Transformada de Laplace/Transformada de Laplace\|Transformada de Laplace]] y después devolverla con una anti-transformada. Solo se aplica transformada a una ecuación.
-# Definición
+
 # Ejemplo
 ## Ejemplo 1
 transforme la ecuación $x''-x'-6x=0$ con condiciones $x(0)=2$ y $x'(0)=-1$

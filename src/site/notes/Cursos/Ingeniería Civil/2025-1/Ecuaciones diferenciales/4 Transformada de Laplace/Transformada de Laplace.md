@@ -56,6 +56,10 @@ $$
 \end{align}
 $$
 Esto se cumple entonces para una $f$ exponencialmente acotada por $M\mathrm{e}^{ ct }$. Entonces la transformada converge para $s>c$.
+Una forma que es muy útil para antitransformar es:
+$$
+\mathcal{L}^{-1}\{ F \}= -\frac{1}{t}\mathcal{L}^{-1}\{ F'(s) \}
+$$
 ## Transformada de una integral
 $$
 \begin{align}
@@ -70,6 +74,10 @@ Esto es muy útil para [[Cursos/Ingeniería Civil/2025-1/Ecuaciones diferenciale
 $$
 \mathcal{L}^{-1}\left\{  \frac{F}{s}  \right\}=\int_{0}^{t} \underbrace{ \mathcal{L}^{-1}\{ F \}  }_{ f }\, \mathrm{d}t 
 $$
+Otra forma más útil para anti-transformar $F=\mathcal{L}\{ f(t) \}$ es que:
+$$
+\mathcal{L}^{-1}\{ F \}=t\mathcal{L}^{-1}\left\{  \int_{s}^{\infty} F(\sigma) \, \mathrm{d}\sigma   \right\}
+$$
 ## Transformada de una función a trozos
 Si una función se defina a trozos con una frontera $a$, por ejemplo:
 $$
@@ -82,6 +90,15 @@ Entonces se puede hacer lo siguiente:
 $$
 \mathcal{L}\{ u_{a}(t) \}=\int_{0}^{a} u_{1}(t) \mathrm{e}^{ -st } \, \mathrm{d}t + \int_{a}^{\infty} u_{2}(t)\mathrm{e}^{ -st } \, \mathrm{d}t  
 $$
+## Desplazamiento en $t$
+Se usa la [[Función escalón de Heaviside\|Función escalón de Heaviside]]:
+$$
+u(t)=\begin{cases}
+1 ,t\geq 0 \\
+0, t<0
+\end{cases}
+$$
+
 ## Desplazamiento de una transformada
 Transformar el producto de una función $f(t)$ tal que $\mathcal{L}\{ f (t)\}=F(s)$ con una función $\mathrm{e}^{ at }$, se interpreta como un desplazamiento de la transformada.
 $$
@@ -100,7 +117,7 @@ $$
 \mathcal{L}^{-1}\left\{  \frac{k}{(s-a)^{2}+k^{2}}  \right\}=\mathrm{e}^{ at }\sin kt
 $$
 ## Derivada de una transformada y antitransformada de una derivada
-Se tiene la siguiente identidad para $\mathcal{L}\{ f \}=F$
+Se tiene la siguiente identidad para $\mathcal{L}\{ f \}=F(s)$
 $$
 F'=-\mathcal{L}\{ tF \}
 $$
@@ -108,7 +125,34 @@ Implicando que:
 $$
 \boxed{\mathcal{L}^{-1}\{ F' \}=- \frac{\mathcal{L}^{-1}\{ F \}}{t}} 
 $$
-De otra forma:
+Ahora la integral de una transformada es:
+$$
+\int_{s}^{\infty} F(\sigma) \, \mathrm{d}\sigma =\mathcal{L}\left\{  \frac{f}{t}  \right\}
+$$
+# Convoluciones
+Se sabe anti-transformar cuando se multiplica y divide por $s$ (derivar e integrar), cuando se tiene una derivada o integral y cuando se traslada. Pero no se tiene algo para separar una multiplicación de funciones. Esto lo hacen la convoluciones, denotado $*$.
+$$
+\mathcal{L}^{-1}\{ F·G \}=\mathcal{L}^{-1}\{ F \}*\mathcal{L}^{-1}\{ G \}
+$$
+La convolución se define de la siguiente forma:
+$$
+(f*g)(t)=\int_{0}^{t} f(\tau-t)g(t) \, \mathrm{d}\tau 
+$$
+Si se aplican convoluciones, se puede obtener la fórmula de integrales y derivadas:
+$$
+\begin{align}
+1*f & =\int_{0}^{t} f(\tau) \, \mathrm{d}\tau 
+  
+\end{align}
+$$
+$$
+\begin{align}
+1·f & =f \\
+\mathcal{L}\{ 1*f \} & =\mathcal{L}\{ 1 \}·\mathcal{L}\{ f \} \\
+\mathcal{L}\left\{  \int_{0}^{t} f(\tau) \, \mathrm{d}\tau   \right\} & =\frac{F}{s} \\
+ \int_{0}^{t} f(\tau) \, \mathrm{d}\tau    & =\mathcal{L}^{-1}\left\{ \frac{F}{s}\right\}
+\end{align}
+$$
 # Ejemplo
 ## Ejemplo 1
 Transforme la función $f(t)=1$.

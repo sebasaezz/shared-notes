@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2025-1/termodinamica/6-ciclo-rankine/ciclos-de-refrigeracion-y-bombas-de-calor/","tags":["ExIIQ1003"]}
 ---
 
-Son un tipo de [[Cursos/Ingeniería Civil/2025-1/Termodinámica/6 Ciclo Rankine/Ciclo de Rankine\|Ciclo de Rankine]] 
+Similares a un ciclo de rankine [[Cursos/Ingeniería Civil/2025-1/Termodinámica/6 Ciclo Rankine/Ciclo de Rankine\|Ciclo de Rankine]] 
 ![Pasted image 20250611083659.png|400](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/Termodin%C3%A1mica/6%20Ciclo%20Rankine/attachments/Pasted%20image%2020250611083659.png)
 Por medio de un trabajo $W_{\text{C}}$ aplicado a un compresor, se ingresa calor $Q_{\text{E}}$ (comida y ambiente) a un evaporador, generando liquido. Este líquido de comprime y después se condensa liberando calor $Q_{\text{C}}$.
 ![Pasted image 20250611084300.png|300](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/Termodin%C3%A1mica/6%20Ciclo%20Rankine/attachments/Pasted%20image%2020250611084300.png)
