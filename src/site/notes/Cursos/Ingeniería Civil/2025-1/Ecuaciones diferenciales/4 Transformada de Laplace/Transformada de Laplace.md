@@ -129,6 +129,26 @@ Ahora la integral de una transformada es:
 $$
 \int_{s}^{\infty} F(\sigma) \, \mathrm{d}\sigma =\mathcal{L}\left\{  \frac{f}{t}  \right\}
 $$
+## Transformada de una función periódica
+Se tiene una función periódica, tal que $f(t)=f(t+p)$.
+$$
+\begin{align}
+\mathcal{L}\{ f \} & =\int_{0}^{p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t +\int_{p}^{2p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t +\dots \\
+ & =\sum_{k=0}^{\infty}\int_{kp}^{(k+1)p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t 
+\end{align}
+$$
+Se puede hacer el siguiente cambio de variable $u=t-kp$, que resulta en lo siguiente:
+$$
+\int_{kp}^{(k+1)p}\mathrm{e}^{ -st }f(t)  \, \mathrm{d}t=\mathrm{e}^{ -ksp }\int_{0}^{p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t  
+$$
+Ahora la sumatoria tendrá potencias de $\mathrm{e}^{ -sp }$, que es una [[Cursos/Ingeniería Civil/2024-2/Cálculo II/1 Integrales Impropias y Series/1.4 Series. Definición de sumas parciales. Convergencia de series. Convergencia absoluta/Series Geométricas\|serie geométrica]].
+Entonces:
+$$
+\begin{align}
+\mathcal{L}\{ f \} & =\sum_{k=0}^{\infty}(\mathrm{e}^{ -sp })^{k}  · \int_{0}^{p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t \\
+  & =\frac{1}{1-\mathrm{e}^{ -sp }}\int_{0}^{p} \mathrm{e}^{ -st }f(t) \, \mathrm{d}t 
+\end{align}
+$$
 # Convoluciones
 Se sabe anti-transformar cuando se multiplica y divide por $s$ (derivar e integrar), cuando se tiene una derivada o integral y cuando se traslada. Pero no se tiene algo para separar una multiplicación de funciones. Esto lo hacen la convoluciones, denotado $*$.
 $$
@@ -212,4 +232,25 @@ s^{2}\mathcal{L}\{ f \} & = \frac{2s}{s^{2}+1}-\mathcal{L}\{ f \} \\
  \mathcal{L}\{ f \} & =\frac{2s}{(s^{2}+1)^{2}}
 \end{align}
 $$
-## Ejemplo 6
+## Ejemplo 6: periódica
+
+Calcule al transformada de $f(t)=(-1)^{\lfloor t \rfloor}$. Esto es una señal con periodo 2.
+$$
+\begin{align}
+\mathcal{L}\{ f \} & =\frac{1}{1-\mathrm{e}^{ -2s }} \left( \int_{0}^{1} \mathrm{e}^{ -st }·1 \, \mathrm{d}t+\int_{1}^{2} \mathrm{e}^{ -st }·(-1) \, \mathrm{d}t   \right) \\
+ & =\frac{1}{1-\mathrm{e}^{ -2s }}\left( -\frac{1}{s}\mathrm{e}^{ -st }\biggr\rvert_{t=0}^{t=1}+ \frac{1}{2}\mathrm{e}^{ -st }\biggr\rvert_{t=1}^{t=2} \right) \\
+ & = \frac{1-\mathrm{e}^{ -s }}{s(1+\mathrm{e}^{ -s })} \\
+ \mathcal{L}\{ (-1)^{\lfloor t \rfloor } \}& =\frac{1}{s}\tanh\left( \frac{s}{2} \right)
+\end{align}
+$$
+lo de la tangente hiperbólica es multiplicar por $\frac{\frac{\mathrm{e}^{ s/2 }}{2}}{\frac{\mathrm{e}^{ s/2 }}{2}}$.
+# Ejemplo 7: periódica
+Transforme una una función que sube y baja con pendiente 1 y -1 cada $t$.
+Esta función tendrá una derivada que va de -1 a 1 cada $t$, que es simplemente la función $f$ anterior.
+$$
+\begin{align}
+\mathcal{L}\{ g'(t) \} & =\mathcal{L}\{ f(t) \} \\
+ \mathcal{L}\{ f(t) \}& =s\mathcal{L}\{ g(t) \}-g(0) \\
+\mathcal{L}\{ g(t) \} & =\frac{1}{s^{2}}\tanh \frac{s}{2}-0
+\end{align}
+$$
