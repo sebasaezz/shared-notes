@@ -6,7 +6,7 @@
 La solución de una [[Cursos/Ingeniería Civil/2025-1/Ecuaciones diferenciales/1 Edos de primer orden/1 Ecuaciones diferenciales de primer orden/Introducción a las Ecuaciones diferenciales ordinaias\|ecuación diferencial]] tendrá **parámetros** que dependen de la condición inicial desde la cual se analiza la solución.
 
 # Definición
-> [!theorem] Teorema PVI (existencia y unicidad)
+> [!theorem] Teorema de existencia y unicidad para EDOs, o teorema de Picard
 > Cada problema de valor inicial de una función $y'=f(x,y)$ tendrá una única solución si es que $f$ es continua y $\partial_{y}f$ también.
 # Ejemplo
 

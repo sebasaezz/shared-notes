@@ -119,11 +119,12 @@ $$
 ## Derivada de una transformada y antitransformada de una derivada
 Se tiene la siguiente identidad para $\mathcal{L}\{ f \}=F(s)$
 $$
-F'=-\mathcal{L}\{ tF \}
+\frac{ \mathrm{d}F }{ \mathrm{d}s } =-\mathcal{L}\{ tf \}
 $$
+Esto sucede ya que al derivar el $\mathrm{e}^{ -st }$ dentro de la definición de la transformada, este queda como $-t\mathrm{e}^{ -st }$.
 Implicando que:
 $$
-\boxed{\mathcal{L}^{-1}\{ F' \}=- \frac{\mathcal{L}^{-1}\{ F \}}{t}} 
+\boxed{\mathcal{L}^{-1}\{ F \}=- \frac{\mathcal{L}^{-1}\{ F' \}}{t}} 
 $$
 Ahora la integral de una transformada es:
 $$
@@ -150,13 +151,17 @@ $$
 \end{align}
 $$
 # Convoluciones
-Se sabe anti-transformar cuando se multiplica y divide por $s$ (derivar e integrar), cuando se tiene una derivada o integral y cuando se traslada. Pero no se tiene algo para separar una multiplicación de funciones. Esto lo hacen la convoluciones, denotado $*$.
+Se sabe anti-transformar cuando se multiplica y divide por $s$ (derivar e integrar), cuando se tiene una derivada o integral y cuando se traslada. Pero no se tiene algo para separar una multiplicación de funciones. Esto lo hacen la [[Convolución\|convoluciones]], denotado «$*$».
 $$
-\mathcal{L}^{-1}\{ F·G \}=\mathcal{L}^{-1}\{ F \}*\mathcal{L}^{-1}\{ G \}
+\mathcal{L}^{-1}\{ F \cdot  G \}=\mathcal{L}^{-1}\{ F \}*\mathcal{L}^{-1}\{ G \}
+$$
+Así como también:
+$$
+\mathcal{L}\{ f*g \}=\mathcal{L}\{ f \}\cdot\mathcal{L}\{ g \}
 $$
 La convolución se define de la siguiente forma:
 $$
-(f*g)(t)=\int_{0}^{t} f(\tau-t)g(t) \, \mathrm{d}\tau 
+(f*g)(t)=\int_{0}^{t} f(t-\tau)g(t) \, \mathrm{d}\tau 
 $$
 Si se aplican convoluciones, se puede obtener la fórmula de integrales y derivadas:
 $$
