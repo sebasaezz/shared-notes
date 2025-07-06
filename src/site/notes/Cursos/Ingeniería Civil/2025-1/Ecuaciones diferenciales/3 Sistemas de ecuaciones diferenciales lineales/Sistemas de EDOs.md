@@ -4,7 +4,7 @@
 
 # Concepto
 
-Si se tiene una [[Cursos/Ingeniería Civil/2025-1/Ecuaciones diferenciales/2 EDOS de orden superior/Ecuaciones diferenciales de orden superior\|EDO de orden superior]] dada por:
+Si se tiene una [[Ecuaciones diferenciales de orden superior\|EDO de orden superior]] dada por:
 
 $$
 y^{(n)}=f(x,y,y',\dots,y^{(n-1)}) \tag{1}

@@ -33,11 +33,11 @@ $$
 \iint_{\mathcal{D}} \lvert \lvert \vec{r}_{t}\times \vec{r}_{s} \rvert \rvert   \, dA 
 $$
 
-Si se hace el despeje de una superficie de revolucion por $f(x)$, entonces se va a llegar que el área es:
+Si se hace el despeje de una superficie de revolucion por $f(x)$, entonces se va a llegar que el área es: $\mapsto$
 $$
 2\pi \int_{a}^{b} f(x)\sqrt{ 1+f'(x)^{2} } \, dx 
 $$
-Esto es lo mismo que se vio en [[integra\|integra]]
+
 # Definición
 # Ejemplo
 Calcule el área de de una esfera de radio $\rho$.

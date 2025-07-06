@@ -63,7 +63,7 @@ $$
 se debe usar el siguiente teorema:
 
 
-> [!theorem] teorema de superposición para EDOs lineales de orden 2
+> [!theorem] teorema de superposición para EDOs
 > Si $y_{h}$ es la solución **general** de la ecuación homogénea asociada (cuando $f=0$) e $y_{p}$ es una solución particular, entonces:
 > $$
 > y=y_{h}+y_{p}
@@ -80,7 +80,6 @@ Ahora solo se reemplaza en la EDO y se resuelven los coeficientes (coeficientes 
 Puede suceder el caso donde la solución particular dada $y_{p}$ sea igual a la homogénea obtenida. En ese caso, al igual que en la [[Cursos/Ingeniería Civil/2025-1/Ecuaciones diferenciales/2 EDOS de orden superior/Resolución de EDOs lineales homogéneas de orden superior con coeficientes constantes\|Resolución de EDOs lineales homogéneas de orden superior con coeficientes constantes]] se multiplica por $x$.
 ## Que pasa si siempre son LI: Variación de parámetros
 
-LA FÓRMULA
 $y_{1}$ e $y_{2}$ son las soluciones de la homogénea.
 $$
 y_{p}=-y_{1}\int \frac{y_{2}f(x)}{W} \, dx +y_{2}\int \frac{y_{1}f(x)}{W}  \, dx 

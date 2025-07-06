@@ -19,9 +19,7 @@ La derivada de la forma diferencial dentro de la primera integral es lo que est�
 $$
 \int _{\partial D}f =\int _{D} \, df  
 $$
-Esto es el [[Cursos/Ingeniería Civil/2025-1/Cálculo III/3 Campos vectoriales e integrales de superficie/Teorema de Stokes\|Teorema de Stokes]]
-
-Lo que está dentro de la integral doble puede verse como:
+	Esto es el [[Teorema de Stokes generalizado\|Teorema de Stokes generalizado]], sin embargo, el teorema de Green se puede ver como un caso del [[Cursos/Ingeniería Civil/2025-1/Cálculo III/3 Campos vectoriales e integrales de superficie/Teorema de Stokes\|Teorema de Stokes]], ya que lo que está dentro de la integral doble puede verse como:
 $$
 \nabla \times \langle P,Q,0 \rangle =\begin{vmatrix}
 \hat{\imath} & \hat{\jmath} & \hat{k} \\
@@ -29,7 +27,7 @@ $$
 P & Q & 0
 \end{vmatrix}=\langle 0,0,\partial_{x}Q-\partial_{y}P \rangle 
 $$
-Donde $\nabla$ es el operador gradiente $\nabla=\langle \partial _{x}, \partial_{y}, \partial_{z} \rangle$.
+Donde $\nabla$ es el operador gradiente $\nabla=\langle \partial _{x}, \partial_{y}, \partial_{z} \rangle$ que opera como [[Cursos/Ingeniería Civil/2025-1/Cálculo III/2 Campos vectoriales/Rotacional\|Rotacional]].
 Esto se generaliza más adelante.
 # Por regiones
 

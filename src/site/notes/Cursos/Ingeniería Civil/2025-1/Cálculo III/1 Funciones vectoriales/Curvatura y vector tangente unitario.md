@@ -16,7 +16,7 @@ $$
 $$
 $\kappa$ es la **curvatura** de de la curva paramétrica. Observe que, como $\frac{ ds }{ dt }=\lvert \lvert \vec{r}'(t) \rvert \rvert$:
 $$
-\frac{ dT }{ dt } =\frac{ dT }{ ds } \frac{ ds }{ dt } =\frac{ dT }{ ds } \lvert \lvert \vec{r}'(s) \rvert \rvert \implies \kappa=\left\lvert  \left\lvert  \frac{T'(t)}{\lvert \lvert \vec{r}'(s) \rvert \rvert }  \right\rvert  \right\rvert 
+\frac{ dT }{ dt } =\frac{ dT }{ ds } \frac{ ds }{ dt } =\frac{ dT }{ ds } \lvert \lvert \vec{r}'(s) \rvert \rvert \implies \kappa=\left\lvert  \left\lvert  \frac{T'(t)}{\lvert \lvert \vec{r}'(t) \rvert \rvert }  \right\rvert  \right\rvert 
 $$
 Nuevamente, si se tiene una normalización de la curva paramétrica, se va a simplificar como:
 $$

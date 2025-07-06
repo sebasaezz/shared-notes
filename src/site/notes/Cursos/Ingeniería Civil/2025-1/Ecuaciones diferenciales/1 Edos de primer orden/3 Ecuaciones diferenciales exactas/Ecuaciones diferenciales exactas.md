@@ -75,7 +75,7 @@ Esto tiene la misma forma que Ecuación 1.
 > y'=y+e^{x}
 > $$
 > $$
-> -y-e^{x}+y'
+> -y-e^{x}+y'=0
 > $$
 > - $F_{x}=-y-e^{x}$
 > - $F_{y}=1$
