@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2024-2/biologia-de-organismos-y-comunidades/1-origen-de-la-vida-y-diversidad-de-organismos/1-5-diversidad-de-animales/el-reino-animalia/2-subreino-eumetazoa/2-bilateria/2-superfilo-deuterostomia/2-filo-chordata/3-subfilo-vertebrata/subfilo-vertebrata/","tags":["P1BIO110C","C2BIO110C"]}
+---
+
+Se divide en dos, los peces (en su mayoría, no todos son peces claramente) con mandíbula ([[Cursos/Ingeniería Civil/2024-2/Biología de Organismos y Comunidades/1 Origen de la Vida y Diversidad de Organismos/1.5 Diversidad de Animales/El Reino Animalia/2 Subreino Eumetazoa/2 Bilateria/2 Superfilo Deuterostomia/2 Filo Chordata/3 Subfilo Vertebrata/1 Infrafilo Gnathostomata/Infrafilo Gnathostomata\|Infrafilo Gnathostomata]]) y los sin mandíbula ([[Cursos/Ingeniería Civil/2024-2/Biología de Organismos y Comunidades/1 Origen de la Vida y Diversidad de Organismos/1.5 Diversidad de Animales/El Reino Animalia/2 Subreino Eumetazoa/2 Bilateria/2 Superfilo Deuterostomia/2 Filo Chordata/3 Subfilo Vertebrata/2 Infrafilo Agnatha/Infrafilo Agnatha\|Infrafilo Agnatha]]).
