@@ -8,9 +8,22 @@ Es como el [[Cursos/Ingeniería Civil/2025-1/Cálculo III/2 Campos vectoriales/C
 Suponga que se tiene una superficie $\mathcal{S}$ que tiene como frontera a una curva $\mathcal{C}$, es decir $\mathcal{C}$ acota a $\mathcal{S}$. Entonces dada una orientación en $\mathcal{S}$, esta induce como orientación positiva de $\mathcal{C}$ a aquella en la que $\mathcal{S}$ se encuentra en la dirección que define $\mathcal{C}$ por la mano de derecha (o a donde apunte $\vec{n}\times \vec{T}$).
 ![b49d37f7038146667440ad20306a8a9f63ef4f1d.png|400](/img/user/Cursos/Ingenier%C3%ADa%20Civil/2025-1/C%C3%A1lculo%20III/3%20Campos%20vectoriales%20e%20integrales%20de%20superficie/attachments/b49d37f7038146667440ad20306a8a9f63ef4f1d.png)
 Entonces:
-$$
-\boxed{\oint_\limits{\mathcal{C}}\vec{F}· \mathrm{d}\vec{r}=\iint_\limits{\mathcal{\mathcal{S}}}\underbrace{  \nabla \times \vec{F} }_{ \, \pu{ rot}\vec{F} } · \mathrm{d}\vec{s} } 
-$$
+
+> [!theorem] teorema de Stokes
+> $$
+> \boxed{\oint_\limits{\mathcal{C}}\vec{F}· \mathrm{d}\vec{r}=\iint_\limits{\mathcal{\mathcal{S}}}\underbrace{  \nabla \times \vec{F} }_{ \, \pu{ rot}\vec{F} } · \mathrm{d}\vec{s} } 
+> $$
+{ #b5769e}
+
+
+Si la superficie es cerrada, entonces $\oint_{\mathcal{C}} \vec{F}\cdot \, \mathrm{d}\vec{r}=0$:
+
+> [!corollary]
+> Si $\mathcal{S}$ es una superficie cerrada:
+> $$
+> \oint_\limits{\mathcal{S}}( \nabla \times \vec{F}) \, \cdot \mathrm{d}\vec{s} =0
+> $$
+
 Recordar que $\mathrm{d}\vec{s}=\vec{n}\,\mathrm{d}S= (\vec{r}_{u}\times \vec{r}_{v})  \, \mathrm{d}A$.
 Análogo a que: $\mathrm{d}\vec{r}=\vec{T}\,\mathrm{d}s= r'(t) \, \mathrm{d}t$.
 Es decir, la integral de trabajo de la región es equivalente a la integral de superficie sobre el.

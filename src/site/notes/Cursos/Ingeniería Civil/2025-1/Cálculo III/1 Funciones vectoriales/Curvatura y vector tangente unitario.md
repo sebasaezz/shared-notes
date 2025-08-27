@@ -14,7 +14,7 @@ Si la parametrización es en términos de longitud de arco $T(s)$ y podemos calc
 $$
 \kappa=\left\lvert  \left\lvert  \frac{d}{ds}T(s)   \right\rvert  \right\rvert 
 $$
-$\kappa$ es la **curvatura** de de la curva paramétrica. Observe que, como $\frac{ ds }{ dt }=\lvert \lvert \vec{r}'(t) \rvert \rvert$:
+$\kappa$ es la **curvatura** de de la curva paramétrica. Observe que, como $\frac{ ds }{ dt }=\lvert \lvert \vec{r}'(t) \rvert \rvert$
 $$
 \frac{ dT }{ dt } =\frac{ dT }{ ds } \frac{ ds }{ dt } =\frac{ dT }{ ds } \lvert \lvert \vec{r}'(s) \rvert \rvert \implies \kappa=\left\lvert  \left\lvert  \frac{T'(t)}{\lvert \lvert \vec{r}'(t) \rvert \rvert }  \right\rvert  \right\rvert 
 $$

@@ -16,6 +16,8 @@ Ahora $\mathcal{S}$ es una superficie frontera de un volumen $\mathcal{E}$. Esta
 > $$
 > \iint_\limits{\mathcal{S}} \vec{F} ·\, \mathrm{d}\vec{s}=\iiint _\limits{\mathcal{E}}(\nabla·\vec{F})\,dV
 > $$
+{ #cea925}
+
 
 # Ejemplo
 ## Ejemplo 1

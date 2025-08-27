@@ -22,6 +22,23 @@ Recordando el [[Cursos/Ingeniería Civil/2024-1/Cálculo I/4 La Integral/Teorema
 $$
 \int_{a}^{b} \frac{d}{dt} [f(\vec{r}(t))] \, dt=f(\vec{r}(b))-f(\vec{r}(c))
 $$
+De otra forma:
+
+> [!theorem] TFC en integrales de línea
+> Si $\mathcal{C}$ va de $P_{1}$ a $P_{2}$, y $f$ es un campo escalar potencial del campo $\nabla f$, entonces:
+> $$
+> \int _\limits{\mathcal{C}}\nabla f(x) \cdot  \mathrm{d}\vec{r}=f(P_{2})-f(P_{1}) 
+> $$
+
+Además:
+
+> [!corollary]
+> $$
+> \oint_\limits{\mathcal{C}} \nabla f \, \mathrm{d}\vec{r} =0
+> $$
+
+ya que $P_{1}=P_{2}$.
+
 Si se tiene un $\mathcal{C}$ continua por trozos, se puede demostrar por medio de un resultado que es una suma telescópica, que el teorema se va a mantener completamente y no se necesita evaluar cada trozo.
 # Ejemplo
 

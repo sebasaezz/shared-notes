@@ -1,0 +1,4 @@
+---
+{"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2024-2/biologia-de-organismos-y-comunidades/1-origen-de-la-vida-y-diversidad-de-organismos/1-5-diversidad-de-animales/el-reino-animalia/2-subreino-eumetazoa/1-radiata-o-coelenterata/1-filo-cnidaria/1-filo-cnidaria/"}
+---
+

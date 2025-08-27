@@ -1,0 +1,5 @@
+---
+{"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2024-2/biologia-de-organismos-y-comunidades/1-origen-de-la-vida-y-diversidad-de-organismos/1-4-diversidad-de-plantas/1-reino-plantae/2-subreino-viridiplantae/3-superdivision-tracheophyta/3-division-spermatophyta/division-spermatophyta/","tags":["P1BIO110C","C2BIO110C"]}
+---
+
+Plantas que producen polen y tienen semillas. Se dividen en las [[Cursos/Ingeniería Civil/2024-2/Biología de Organismos y Comunidades/1 Origen de la Vida y Diversidad de Organismos/1.4 Diversidad de plantas/1 Reino Plantae/2 Subreino Viridiplantae/3 Superdivisión Tracheophyta/3 División Spermatophyta/1 Subdivisión Gymnospermae/Subdivisión Gymnospermae\|gimnospermas]] y las [[Cursos/Ingeniería Civil/2024-2/Biología de Organismos y Comunidades/1 Origen de la Vida y Diversidad de Organismos/1.4 Diversidad de plantas/1 Reino Plantae/2 Subreino Viridiplantae/3 Superdivisión Tracheophyta/3 División Spermatophyta/2 Subdivisión Angiospermae/Subdivisión Angiospermae\|angiospermas]]

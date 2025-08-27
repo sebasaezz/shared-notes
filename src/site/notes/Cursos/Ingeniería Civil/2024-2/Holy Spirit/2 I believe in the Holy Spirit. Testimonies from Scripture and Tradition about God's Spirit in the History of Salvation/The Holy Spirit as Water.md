@@ -1,0 +1,31 @@
+---
+{"dg-publish":true,"permalink":"/cursos/ingenieria-civil/2024-2/holy-spirit/2-i-believe-in-the-holy-spirit-testimonies-from-scripture-and-tradition-about-god-s-spirit-in-the-history-of-salvation/the-holy-spirit-as-water/"}
+---
+
+# Old Testament
+## Water flowing from the temple
+
+> [!quote]- Ezekiel 47:1-12
+> Then he brought me back to the entrance of the temple; there, water was flowing from below the threshold of the temple toward the east (for the temple faced east); and the water was flowing down from below the south end of the threshold of the temple, south of the altar. 2 then he brought me out by way of the north gate and led me around on the outside to the outer gate that faces toward the east; and the water was coming out on the south side...
+> ...Going on eastward with a cord in his hand, the man measured one thousand cubits, and then led me through the water; and it was ankle-deep. 4 again he measured one thousand and led me through the water; and it was knee-deep. Again he measured one thousand, and led me through the water; and it was up to the waist...
+> ...again he measured one thousand, and it was a river that I could not cross, for the water had risen; it was deep enough to swim in, a river that could not be crossed. 6 he said to me, “mortal, have you seen this?”  
+> Then he led me back along the bank of the river. 7 as I came back, I saw on the bank of the river a great many trees on the one side and on the other. 8 he said to me, “this water flows toward the eastern region and goes down into the arabah; and when it enters the sea, the sea of stagnant waters, the water will become fresh...
+> wherever the river goes, every living creature that swarms will live, and there will be very many fish, once these waters reach there. It will become fresh; and everything will live where the river goes. 10 people will stand fishing beside the sea from en-gedi to en-eglaim; it will be a place for the spreading of nets; its fish will be of a great many kinds, like the fish of the great sea. 11 but its swamps and marshes will not become fresh; they are to be left for salt. 12 on the banks, on both sides of the river, there will grow all kinds of trees for food. Their leaves will not wither nor their fruit fail, but they will bear fresh fruit every month, because the water for them flows from the sanctuary. Their fruit will be for food, and their leaves for healing.
+
+The presence of water in the old testament can mean two things, chaos and the Holy Spirit. When the water gives life, it's the Holy Spirit (Lord and Giver of Life)
+# New Testament
+## The Samaritan Woman
+> [!quote]- John 4: Jesus and the woman of samaria
+> now when Jesus learned that the pharisees had heard, “Jesus is making and baptizing more disciples than john” 2 —although it was not Jesus himself but his disciples who baptized— 3 he left judea and started back to galilee. 4 but he had to go through samaria. 5 so he came to a samaritan city called sychar, near the plot of ground that jacob had given to his son joseph. 6 jacob’s well was there, and Jesus, tired out by his journey, was sitting by the well. It was about noon. 7 a samaritan woman came to draw water, and Jesus said to her, “give me a drink.” 8 (his disciples had gone to the city to buy food.) 9 the samaritan woman said to him, “how is it that you, a jew, ask a drink of me, a woman of samaria?” (Jews do not share things in common with samaritans.)  
+> 
+> 10 Jesus answered her, “if you knew the gift of god, and who it is that is saying to you, ‘give me a drink,’ you would have asked him, and he would have given you living water.” 11 the woman said to him, “Sir, you have no bucket, and the well is deep. Where do you get that living water? 12 are you greater than our ancestor jacob, who gave us the well, and with his sons and his flocks drank from it?” 13 Jesus said to her, “everyone who drinks of this water will be thirsty again, 14 but those who drink of the water that I will give them will never be thirsty. The water that I will give will become in them a spring of water gushing up to eternal life.”
+> 
+> 15 the woman said to him, “Sir, give me this water, so that I may never be thirsty or have to keep coming here to draw water.” 
+> 16 Jesus said to her, “go, call your husband, and come back.” 17 the woman answered him, “I have no husband.” Jesus said to her, “you are right in saying, ‘I have no husband’; 18 for you have had five husbands, and the one you have now is not your husband. What you have said is true!” 19 the woman said to him, “Sir, I see that you are a prophet.
+> 
+> 20 our ancestors worshiped on this mountain, but you [c] say that the place where people must worship is in jerusalem.” 21 Jesus said to her, “woman, believe me, the hour is coming when you will worship the Father neither on this mountain nor in jerusalem. 22 you worship what you do not know; we worship what we know, for salvation is from the jews. 23 but the hour is coming, and is now here, when the true worshipers will worship the Father in Spirit and truth, for the Father seeks such as these to worship him. 24 God is Spirit, and those who worship him must worship in Spirit and truth.” 25 the woman said to him, “I know that messiah is coming” (who is called christ). “When he comes, he will proclaim all things to us.”
+> 
+> 25 the woman said to him, “I know that messiah is coming” (who is called christ). “When he comes, he will proclaim all things to us.” 26 Jesus said to her, “I am he,[d] the one who is speaking to you.”  
+> 27 just then his disciples came. They were astonished that he was speaking with a woman, but no one said, “what do you want?” Or, “why are you speaking with her?” 28 then the woman left her water jar and went back to the city. She said to the people, 29 “come and see a man who told me everything I have ever done! He cannot be the messiah,[e] can he?” 30 they left the city and were on their way to him
+
+If you knew the gift of god (Holy Spirit), and if you knew the Son, you would've asked me, and I would've given you Living Water.

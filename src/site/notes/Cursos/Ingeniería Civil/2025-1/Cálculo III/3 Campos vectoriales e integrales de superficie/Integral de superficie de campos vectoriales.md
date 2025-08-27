@@ -30,10 +30,11 @@ La cual apunta hacia $z$ positiva.
 
 La orientación positiva será la que el vector normal apunte hacia afuera de una región encerrada.
 
-Ahora la se va a poder usar el concepto de [[Cursos/Ingeniería Civil/2025-1/Cálculo III/2 Campos vectoriales/Formas vectoriales del teorema de Green y flujo\|flujo]]:
+Ahora, la integral de flujo en $\mathbb{R}^{3}$ sobre una región $\mathcal{S}$ se define de la siguiente forma, con el mismo significado del [[Cursos/Ingeniería Civil/2025-1/Cálculo III/2 Campos vectoriales/Formas vectoriales del teorema de Green y flujo\|flujo en R2]]:
 $$
 \iint_\limits{\mathcal{S}} \vec{F}· \, \mathrm{d}\vec{s}=\iint_\limits{\mathcal{S}} \vec{F}·\vec{n} \, \mathrm{d}S  
 $$
+_Nota:_ esta integral también se denota $\oint_\limits{\mathcal{S}} \vec{F} \, \mathrm{d}\vec{s}$ si es cerrada.
 Se tiene que $\mathrm{d}S=\lvert \lvert \vec{r}_{s}\times \vec{r}_{t} \rvert \rvert \,\mathrm{d}A$.
 Entonces:
 $$

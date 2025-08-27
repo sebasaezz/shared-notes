@@ -32,7 +32,7 @@ Parametrice:
 $$
 x^{2}+y^{2}+z^{2}=a^{2}
 $$
-Esto se hace con [[Cursos/Ingeniería Civil/2024-2/Cálculo II/3 Integrales Múltiples/3.10 Coordenadas esféricas. Calculo de integrales triples utilizando coordenadas cilíndricas y esféricas/Cambio a coordenadas esféricas para resolver integrales triples\|coordenadas esféricas]] el radio de la esfera $\rho=a$. De aquí se toman las parámetros $\theta$ y $\phi$, y se usa la parametrización que ya se conoce:
+Esto se hace con [[Cursos/Ingeniería Civil/2024-2/Cálculo II/3 Integrales Múltiples/3.10 Coordenadas esféricas. Calculo de integrales triples utilizando coordenadas cilíndricas y esféricas/Coordenadas esféricas\|coordenadas esféricas]] el radio de la esfera $\rho=a$. De aquí se toman las parámetros $\theta$ y $\phi$, y se usa la parametrización que ya se conoce:
 - $x=\rho \sin \phi \cos\theta$
 - $y=\rho \sin \phi \sin \theta$
 - $z=\rho \cos \phi$
